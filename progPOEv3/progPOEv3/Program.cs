@@ -60,22 +60,22 @@
                                     switch (choice2)
                                     {
                                         case 1:
-                                            Response("");
+                                            Response(Answers.passwordSafety());
                                             Console.ForegroundColor = ConsoleColor.White;
                                             break;
 
                                         case 2:
-                                            Response("");
+                                            Response(Answers.Phishingsafety());
                                             Console.ForegroundColor = ConsoleColor.White;
                                             break;
 
                                         case 3:
-                                            Response("");
+                                            Response(Answers.safebrowsing());
                                             Console.ForegroundColor = ConsoleColor.White;
                                             break;
 
                                         case 4:
-                                            Response("");
+                                            Response(Answers.watchpost());
                                             Console.ForegroundColor = ConsoleColor.White;
                                             break;
 
@@ -134,4 +134,3 @@
 
     }
 }
-        
